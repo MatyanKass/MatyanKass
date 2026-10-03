@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "login": "MatyanKass",
   "scope": "public",
-  "syncedAt": "2026-10-03T23:21:02.261Z",
+  "syncedAt": "2026-10-03T23:25:45.510Z",
   "calendarThrough": "2026-10-03",
   "publicRepositories": 2,
   "followers": 1,
@@ -1605,27 +1605,27 @@
     {
       "name": "Python",
       "bytes": 1042801,
-      "percentage": 76.232
+      "percentage": 75.34
     },
     {
       "name": "JavaScript",
-      "bytes": 162504,
-      "percentage": 11.88
+      "bytes": 178712,
+      "percentage": 12.911
     },
     {
       "name": "PowerShell",
       "bytes": 62414,
-      "percentage": 4.563
+      "percentage": 4.509
     },
     {
       "name": "CSS",
       "bytes": 51896,
-      "percentage": 3.794
+      "percentage": 3.749
     },
     {
       "name": "HTML",
       "bytes": 47955,
-      "percentage": 3.506
+      "percentage": 3.465
     },
     {
       "name": "Batchfile",
