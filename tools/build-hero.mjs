@@ -7,7 +7,7 @@ const logo = readFileSync(resolve(root, 'assets/yudui.png')).toString('base64');
 const hero = `<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1120" height="448" viewBox="0 0 1120 448" role="img" aria-labelledby="title desc">
   <title id="title">MatyanKass — Small details. A better desktop.</title>
-  <desc id="desc">A personal space inspired by YudUi: violet aurora, glass surfaces, a pixel angel and gentle orbital motion. Currently building YudUi. Team 32x64x32.</desc>
+  <desc id="desc">A personal space inspired by YudUi: violet aurora, glass surfaces, a pixel angel and gentle orbital motion. Currently building YudUi.</desc>
   <defs>
     <linearGradient id="surface" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#171026"/><stop offset=".52" stop-color="#0b0714"/><stop offset="1" stop-color="#130c20"/></linearGradient>
     <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#c084fc" stop-opacity=".5"/><stop offset=".45" stop-color="#c084fc" stop-opacity=".1"/><stop offset="1" stop-color="#e879f9" stop-opacity=".4"/></linearGradient>
@@ -82,7 +82,7 @@ const hero = `<?xml version="1.0" encoding="UTF-8"?>
     </g>
     <path d="M64 391H1056" stroke="#c084fc" stroke-opacity=".13"/>
     <path class="scan" d="M64 391H294" stroke="url(#trace)" stroke-width="1.5"/>
-    <text x="64" y="420" class="mono" font-size="11" letter-spacing="1.5" fill="#b9b0d0">TEAM 32x64x32</text>
+    <text x="64" y="420" class="mono" font-size="11" letter-spacing="1.5" fill="#b9b0d0">BUILD / EXPERIMENT / REPEAT</text>
     <text x="1056" y="420" class="mono" font-size="10" letter-spacing="1.4" text-anchor="end" fill="#847aa0">MADE OF IDEAS &amp; LITTLE DETAILS</text>
   </g>
   <rect x=".5" y=".5" width="1119" height="447" rx="24" fill="none" stroke="url(#edge)"/>
@@ -97,7 +97,7 @@ const mobileStyles = hero.match(/<style>[\s\S]*?<\/style>/)[0]
 const mobile = `<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="560" height="620" viewBox="0 0 560 620" role="img" aria-labelledby="title desc">
   <title id="title">MatyanKass — Small details. A better desktop.</title>
-  <desc id="desc">A violet personal space inspired by YudUi. An animated pixel angel card, gentle aurora, and orbital particles. Building YudUi. Team 32x64x32.</desc>
+  <desc id="desc">A violet personal space inspired by YudUi. An animated pixel angel card, gentle aurora, and orbital particles. Building YudUi.</desc>
   ${mobileDefs}${mobileStyles}
   <g clip-path="url(#canvas)">
     <rect width="560" height="620" fill="url(#surface)"/>
@@ -128,7 +128,7 @@ const mobile = `<?xml version="1.0" encoding="UTF-8"?>
     <circle class="pulse" cx="198" cy="543" r="4" fill="#c084fc"/>
     <circle class="pulse" cx="198" cy="543" r="8" fill="#a855f7" opacity=".2" filter="url(#glow)"/>
     <text x="213" y="548" class="mono" font-size="13" letter-spacing=".7" fill="#e9d5ff">BUILDING YUDUI</text>
-    <text x="280" y="597" text-anchor="middle" class="mono" font-size="12" letter-spacing="1.5" fill="#b9b0d0">TEAM 32x64x32</text>
+    <text x="280" y="597" text-anchor="middle" class="mono" font-size="12" letter-spacing="1.5" fill="#b9b0d0">BUILD / EXPERIMENT / REPEAT</text>
     <path class="spark spark-late" d="M95 342v8m-4-4h8" fill="none" stroke="#c084fc" stroke-width="1"/>
   </g>
   <rect x=".5" y=".5" width="559" height="619" rx="24" fill="none" stroke="url(#edge)"/>
