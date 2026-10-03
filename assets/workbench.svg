@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="228" viewBox="0 0 1120 228" role="img" aria-labelledby="title description">
+  <title id="title">YudUi — current focus and toolbox</title>
+  <desc id="description">Windows, with a personal touch. Desktop customization, motion, and UI. Built with Go, Wails, Svelte, and TypeScript.</desc>
+  <defs>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#f5f2fb" stop-opacity=".28"/>
+      <stop offset=".48" stop-color="#c084fc" stop-opacity=".13"/>
+      <stop offset="1" stop-color="#f5f2fb" stop-opacity=".22"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#f5f2fb" stop-opacity=".065"/>
+      <stop offset="1" stop-color="#c084fc" stop-opacity=".025"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="1" x2="1" y2="0">
+      <stop stop-color="#a855f7"/>
+      <stop offset=".5" stop-color="#c084fc"/>
+      <stop offset="1" stop-color="#e879f9"/>
+    </linearGradient>
+    <radialGradient id="violetGlow">
+      <stop stop-color="#a855f7" stop-opacity=".2"/>
+      <stop offset="1" stop-color="#a855f7" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="pinkGlow">
+      <stop stop-color="#e879f9" stop-opacity=".12"/>
+      <stop offset="1" stop-color="#e879f9" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="divider" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#c084fc" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#c084fc" stop-opacity=".25"/>
+      <stop offset="1" stop-color="#c084fc" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="frame">
+      <rect x=".5" y=".5" width="1119" height="227" rx="22"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1120" height="228" fill="#0b0714"/>
+    <ellipse cx="190" cy="255" rx="320" ry="235" fill="url(#violetGlow)"/>
+    <ellipse cx="1085" cy="-10" rx="340" ry="250" fill="url(#pinkGlow)"/>
+    <g fill="none" stroke="#c084fc" stroke-opacity=".045">
+      <circle cx="1120" cy="0" r="162"/>
+      <circle cx="1120" cy="0" r="196"/>
+      <circle cx="1120" cy="0" r="230"/>
+    </g>
+    <path d="M560 30V198" stroke="url(#divider)"/>
+    <g font-family="Segoe UI, Inter, Arial, sans-serif">
+      <text x="40" y="43" fill="#b9b0d0" font-size="11" font-weight="600" letter-spacing="2.6">CURRENT FOCUS</text>
+      <rect x="40" y="68" width="40" height="40" rx="11" fill="url(#glass)" stroke="#c084fc" stroke-opacity=".22"/>
+      <g fill="url(#accent)">
+        <rect x="49" y="77" width="9" height="9" rx="1.5"/>
+        <rect x="62" y="77" width="9" height="9" rx="1.5"/>
+        <rect x="49" y="90" width="9" height="9" rx="1.5"/>
+        <rect x="62" y="90" width="9" height="9" rx="1.5"/>
+      </g>
+      <text x="96" y="103" fill="#f5f2fb" font-size="36" font-weight="600" letter-spacing="-.8">YudUi</text>
+      <text x="40" y="143" fill="#f5f2fb" font-size="20" font-weight="400">Windows, with a personal touch.</text>
+      <text x="40" y="180" fill="#b9b0d0" font-size="13">Desktop customization · Motion · UI</text>
+      <text x="596" y="43" fill="#b9b0d0" font-size="11" font-weight="600" letter-spacing="2.6">TOOLBOX</text>
+      <g fill="url(#glass)" stroke="#f5f2fb" stroke-opacity=".12">
+        <rect x="596" y="68" width="235" height="52" rx="14"/>
+        <rect x="845" y="68" width="235" height="52" rx="14"/>
+        <rect x="596" y="134" width="235" height="52" rx="14"/>
+        <rect x="845" y="134" width="235" height="52" rx="14"/>
+      </g>
+      <g fill="none" stroke="#c4b5fd" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M614 89H623M611 94H621M614 99H623M626 87L633 94L626 101M634 87L641 94L634 101"/>
+        <rect x="864" y="83" width="24" height="22" rx="4"/>
+        <path d="M865 90H887M869 99L873 95L877 99L882 95"/>
+        <path d="M639 150C635 146 629 147 625 150L620 154C616 157 617 162 621 164M621 169C625 173 631 172 635 169L640 165C644 162 643 157 639 155M625 160L633 155M625 164L633 159"/>
+        <rect x="864" y="148" width="24" height="24" rx="4"/>
+        <path d="M868 155H875M871.5 155V166M884 155H880C877 155 877 160 880 160H881C884 160 884 166 881 166H878" stroke-width="1.6"/>
+      </g>
+      <g fill="#f5f2fb" font-size="18" font-weight="500">
+        <text x="657" y="100">Go</text>
+        <text x="906" y="100">Wails</text>
+        <text x="657" y="166">Svelte</text>
+        <text x="906" y="166">TypeScript</text>
+      </g>
+    </g>
+  </g>
+  <rect x=".5" y=".5" width="1119" height="227" rx="22" fill="none" stroke="url(#edge)"/>
+</svg>
