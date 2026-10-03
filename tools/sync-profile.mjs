@@ -84,11 +84,11 @@ const rect=(x,y,w,h,r=14,extra='')=>`<rect x="${x}" y="${y}" width="${w}" height
 function frame(w,h,title,body,styles='') {
  return `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" role="img" aria-labelledby="title desc"><title id="title">${esc(title)}</title><desc id="desc">Public GitHub data for ${login}, updated ${esc(updateLabel)} Kyiv time. ${data.contributions} contributions and ${data.activeDays} active days in the last year. ${data.publicRepositories} public repositories, ${data.stars} stars and ${data.followers} followers.</desc>${defs}<style>text{font-family:'Segoe UI',Arial,sans-serif}.mono{font-family:Consolas,'Liberation Mono',monospace}.spin{animation:spin 18s linear infinite;transform-box:fill-box;transform-origin:center}.beat{animation:beat 2.8s ease-in-out infinite;transform-box:fill-box;transform-origin:center bottom}.orbit{animation:beat 4s ease-in-out infinite}.ship{animation:ship 12s ease-in-out infinite}.enemy{animation:enemy 4s ease-in-out infinite}.shot{animation:shot 4s linear infinite;transform-box:fill-box;transform-origin:center}${styles}@keyframes spin{to{transform:rotate(360deg)}}@keyframes beat{0%,100%{opacity:.6}50%{opacity:1}}@keyframes ship{0%,100%{transform:translateX(-60px)}50%{transform:translateX(60px)}}@keyframes enemy{0%,100%{transform:translateY(0)}50%{transform:translateY(6px)}}@keyframes shot{0%,15%{opacity:0;transform:translateY(0)}20%{opacity:1}70%,100%{transform:translateY(-115px);opacity:0}}@media(prefers-reduced-motion:reduce){.spin,.beat,.orbit,.ship,.enemy,.shot{animation:none}.shot{display:none}}</style><rect x=".5" y=".5" width="${w-1}" height="${h-1}" rx="22" fill="url(#bg)" stroke="#c084fc" stroke-opacity=".3"/><ellipse cx="${w*.8}" cy="30" rx="${w*.5}" ry="220" fill="url(#cloud)"/>${body}</svg>`;
 }
-function deck(cx,cy,r,value,label,sub) {
+function deck(cx,cy,r,value,label,sub,mobile=false) {
  let s=`<g><circle cx="${cx}" cy="${cy}" r="${r+12}" fill="none" stroke="#c084fc" stroke-opacity=".16"/><circle cx="${cx}" cy="${cy}" r="${r}" fill="url(#disc)" stroke="#c084fc" stroke-opacity=".3"/>`;
  for(let a=r-9;a>r*.4;a-=8) s+=`<circle cx="${cx}" cy="${cy}" r="${a}" fill="none" stroke="#c084fc" stroke-opacity=".045"/>`;
  s+=`<g class="spin"><circle cx="${cx}" cy="${cy}" r="${r-4}" fill="none" stroke="url(#accent)" stroke-width="2" stroke-dasharray="${r*.72} ${r*.35} ${r*.24} ${r*4.97}"/><circle cx="${cx}" cy="${cy-r+4}" r="3" fill="#e879f9"/></g>`;
- s+=text(cx,cy+13,value,r*.47,'#f5f2fb','font-weight="600" text-anchor="middle"')+text(cx,cy+r*.46,label,10,'#c084fc','class="mono" letter-spacing="1" text-anchor="middle"')+text(cx,cy+r+42,sub,13,'#b9b0d0','text-anchor="middle"')+'</g>';
+ s+=text(cx,cy+13,value,mobile?42:r*.47,'#f5f2fb','font-weight="600" text-anchor="middle"')+text(cx,cy+r*.46,label,mobile?15:10,'#c084fc','class="mono" letter-spacing="1" text-anchor="middle"')+text(cx,cy+r+42,sub,mobile?17:13,'#b9b0d0','text-anchor="middle"')+'</g>';
  return s;
 }
 function meter(x,y,w,h) {
@@ -100,25 +100,25 @@ function meter(x,y,w,h) {
  });
  return s+text(x,y+24,shortDate(counts[0].date),10,'#847aa0','class="mono"')+text(x+w,y+24,shortDate(counts.at(-1).date),10,'#847aa0','class="mono" text-anchor="end"');
 }
-function metric(x,y,w,value,label,sub) {return rect(x,y,w,86)+text(x+18,y+34,value,27,'#f5f2fb','font-weight="600"')+text(x+18,y+56,label,11,'#c084fc','class="mono" letter-spacing=".6"')+text(x+18,y+74,sub,10,'#847aa0');}
+function metric(x,y,w,value,label,sub,mobile=false) {return rect(x,y,w,86)+text(x+18,y+34,value,mobile?38:27,'#f5f2fb','font-weight="600"')+text(x+18,y+56,label,mobile?18:11,'#c084fc','class="mono" letter-spacing=".6"')+text(x+18,y+74,sub,mobile?12:10,'#847aa0');}
 function languageBar(x,y,w,mobile) {
  const langs=data.languages,total=langs.reduce((s,l)=>s+l.bytes,0);let start=x,s='';
  langs.forEach((l,i)=>{const width=l.bytes/total*w;s+=`<rect x="${start}" y="${y}" width="${width}" height="7" fill="${colors[i%colors.length]}"><title>${esc(l.name)}: ${l.percentage}%</title></rect>`;start+=width;});
  langs.slice(0,6).forEach((l,i)=>{const tx=x+(mobile?(i%2)*250:i%3*w/3),ty=y+28+Math.floor(i/(mobile?2:3))*26;
  const percentage=l.percentage<.1?'\u003c0.1':l.percentage.toFixed(1);
- s+=`<circle cx="${tx+4}" cy="${ty-5}" r="3" fill="${colors[i]}"/>`+text(tx+16,ty,`${l.name} ${percentage}%`,12,'#b9b0d0');});
+ s+=`<circle cx="${tx+4}" cy="${ty-5}" r="3" fill="${colors[i]}"/>`+text(tx+16,ty,`${l.name} ${percentage}%`,mobile?18:12,'#b9b0d0');});
  return s;
 }
 function mixer(mobile=false) {
- const w=mobile?560:1120,h=mobile?910:594;let s=text(32,39,'GITHUB // MIXER',14,'#f5f2fb','class="mono" letter-spacing="1.6"');
+ const w=mobile?560:1120,h=mobile?910:594;let s=text(32,39,'GITHUB // MIXER',mobile?18:14,'#f5f2fb','class="mono" letter-spacing="1.6"');
  s+=text(w-32,39,'PUBLIC DATA',10,'#c084fc','class="mono" text-anchor="end" letter-spacing="1"')+`<path d="M32 58H${w-32}" stroke="#c084fc" stroke-opacity=".15"/>`;
  if(mobile) {
- s+=deck(147,169,78,data.contributions,'CONTRIBUTIONS','LAST YEAR')+deck(413,169,78,data.activeDays,'ACTIVE DAYS','LAST YEAR');
- s+=text(32,308,'ACTIVITY CHANNEL / 28 DAYS',11,'#c084fc','class="mono" letter-spacing="1"')+meter(32,419,496,82);
- s+=metric(32,469,240,data.publicRepositories,'PUBLIC REPOS','owned by this account')+metric(288,469,240,data.stars,'STARS RECEIVED','public repositories');
- s+=metric(32,571,240,data.publicCommits,'PUBLIC COMMITS','last year')+metric(288,571,240,data.longestStreak,'BEST STREAK','consecutive days / last year');
- s+=text(32,702,'LANGUAGE MIX / PUBLIC CODE BYTES',11,'#c084fc','class="mono"')+languageBar(32,723,496,true);
- s+=text(32,851,`SYNC ${updateLabel} / KYIV`,11,'#b9b0d0','class="mono"')+text(32,876,'Bars reflect daily counts. Glow is decorative motion.',10,'#847aa0');
+ s+=deck(147,169,78,data.contributions,'CONTRIBUTIONS','LAST YEAR',true)+deck(413,169,78,data.activeDays,'ACTIVE DAYS','LAST YEAR',true);
+ s+=text(32,308,'ACTIVITY CHANNEL / 28 DAYS',17,'#c084fc','class="mono" letter-spacing="1"')+meter(32,419,496,82);
+ s+=metric(32,469,240,data.publicRepositories,'PUBLIC REPOS','owned by this account',true)+metric(288,469,240,data.stars,'STARS RECEIVED','public repositories',true);
+ s+=metric(32,571,240,data.publicCommits,'PUBLIC COMMITS','last year',true)+metric(288,571,240,data.longestStreak,'BEST STREAK','consecutive days / last year',true);
+ s+=text(32,702,'LANGUAGE MIX / PUBLIC CODE BYTES',16,'#c084fc','class="mono"')+languageBar(32,723,496,true);
+ s+=text(32,851,`SYNC ${updateLabel} / KYIV`,15,'#b9b0d0','class="mono"')+text(32,876,'Daily counts. Glow is decorative motion.',13,'#847aa0');
  } else {
  s+=deck(171,174,83,data.contributions,'CONTRIBUTIONS','LAST YEAR')+deck(949,174,83,data.activeDays,'ACTIVE DAYS','LAST YEAR');
  s+=rect(317,86,486,204)+text(340,117,'ACTIVITY CHANNEL / 28 DAYS',11,'#c084fc','class="mono" letter-spacing="1"')+meter(341,239,438,89);
