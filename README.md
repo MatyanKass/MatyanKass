@@ -1,6 +1,6 @@
 <p align="center">
   <picture>
-    <source media="(max-width: 600px)" srcset="assets/hero-mobile.svg" />
+    <source media="(max-width: 767px)" srcset="assets/hero-mobile.svg" />
     <img src="assets/hero.svg" alt="MatyanKass — Small details. A better desktop. Building YudUi. Team 32x64x32." width="100%" />
   </picture>
 </p>
@@ -11,7 +11,7 @@
 
 <p align="center">
   <picture>
-    <source media="(max-width: 600px)" srcset="assets/workbench-mobile.svg" />
+    <source media="(max-width: 767px)" srcset="assets/workbench-mobile.svg" />
     <img src="assets/workbench.svg" alt="Current focus: YudUi, a Windows customization project. Toolbox: Go, Wails, Svelte and TypeScript." width="100%" />
   </picture>
 </p>
