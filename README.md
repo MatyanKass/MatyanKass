@@ -6,7 +6,10 @@
 </p>
 
 <p align="center">
-        https://yudui.dev/ \n
+            https://yudui.dev/
+</p>
+
+<p align="center">
   I build tools that make a workspace feel personal — from desktop interfaces to AI integrations.
 </p>
 
