@@ -6,6 +6,7 @@
 </p>
 
 <p align="center">
+        https://yudui.dev/
   I build tools that make a workspace feel personal — from desktop interfaces to AI integrations.
 </p>
 
