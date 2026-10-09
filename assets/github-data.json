@@ -2,14 +2,14 @@
   "schemaVersion": 1,
   "login": "MatyanKass",
   "scope": "public",
-  "syncedAt": "2026-10-09T13:33:49.612Z",
+  "syncedAt": "2026-10-09T22:45:30.541Z",
   "calendarThrough": "2026-10-09",
-  "publicRepositories": 2,
+  "publicRepositories": 3,
   "followers": 1,
   "stars": 0,
-  "contributions": 13,
+  "contributions": 14,
   "publicCommits": 11,
-  "activeDays": 4,
+  "activeDays": 5,
   "longestStreak": 2,
   "days": [
     {
@@ -1470,7 +1470,7 @@
     },
     {
       "date": "2026-10-09",
-      "count": 0
+      "count": 1
     }
   ],
   "history": [
@@ -1584,7 +1584,7 @@
     },
     {
       "date": "2026-10-09",
-      "count": 0
+      "count": 1
     }
   ],
   "weekly": [
@@ -1599,41 +1599,53 @@
     0,
     0,
     5,
-    8
+    9
   ],
   "languages": [
     {
       "name": "Python",
       "bytes": 1042801,
-      "percentage": 75.333
+      "percentage": 47.244
+    },
+    {
+      "name": "TypeScript",
+      "bytes": 812241,
+      "percentage": 36.799
     },
     {
       "name": "JavaScript",
-      "bytes": 178835,
-      "percentage": 12.919
+      "bytes": 183572,
+      "percentage": 8.317
     },
     {
       "name": "PowerShell",
       "bytes": 62414,
-      "percentage": 4.509
+      "percentage": 2.828
     },
     {
       "name": "CSS",
-      "bytes": 51896,
-      "percentage": 3.749
+      "bytes": 57474,
+      "percentage": 2.604
     },
     {
       "name": "HTML",
-      "bytes": 47955,
-      "percentage": 3.464
+      "bytes": 48405,
+      "percentage": 2.193
     },
     {
       "name": "Batchfile",
       "bytes": 356,
-      "percentage": 0.026
+      "percentage": 0.016
     }
   ],
   "projects": [
+    {
+      "name": "NeuroYouStudio",
+      "url": "https://github.com/MatyanKass/NeuroYouStudio",
+      "description": "",
+      "language": "TypeScript",
+      "pushedAt": "2026-10-09T22:36:25Z"
+    },
     {
       "name": "claude-web-api-deepseek",
       "url": "https://github.com/MatyanKass/claude-web-api-deepseek",
