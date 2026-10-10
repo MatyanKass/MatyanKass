@@ -2,20 +2,16 @@
   "schemaVersion": 1,
   "login": "MatyanKass",
   "scope": "public",
-  "syncedAt": "2026-10-09T22:45:30.541Z",
-  "calendarThrough": "2026-10-09",
+  "syncedAt": "2026-10-10T06:03:46.839Z",
+  "calendarThrough": "2026-10-10",
   "publicRepositories": 3,
   "followers": 1,
   "stars": 0,
-  "contributions": 14,
-  "publicCommits": 11,
-  "activeDays": 5,
+  "contributions": 36,
+  "publicCommits": 33,
+  "activeDays": 6,
   "longestStreak": 2,
   "days": [
-    {
-      "date": "2025-10-10",
-      "count": 0
-    },
     {
       "date": "2025-10-11",
       "count": 0
@@ -1471,13 +1467,13 @@
     {
       "date": "2026-10-09",
       "count": 1
+    },
+    {
+      "date": "2026-10-10",
+      "count": 22
     }
   ],
   "history": [
-    {
-      "date": "2026-09-12",
-      "count": 0
-    },
     {
       "date": "2026-09-13",
       "count": 0
@@ -1585,6 +1581,10 @@
     {
       "date": "2026-10-09",
       "count": 1
+    },
+    {
+      "date": "2026-10-10",
+      "count": 22
     }
   ],
   "weekly": [
@@ -1598,44 +1598,44 @@
     0,
     0,
     0,
-    5,
-    9
+    8,
+    28
   ],
   "languages": [
     {
       "name": "Python",
       "bytes": 1042801,
-      "percentage": 47.244
+      "percentage": 44.616
     },
     {
       "name": "TypeScript",
-      "bytes": 812241,
-      "percentage": 36.799
+      "bytes": 923983,
+      "percentage": 39.533
     },
     {
       "name": "JavaScript",
-      "bytes": 183572,
-      "percentage": 8.317
+      "bytes": 201427,
+      "percentage": 8.618
     },
     {
       "name": "PowerShell",
       "bytes": 62414,
-      "percentage": 2.828
+      "percentage": 2.67
     },
     {
       "name": "CSS",
-      "bytes": 57474,
-      "percentage": 2.604
+      "bytes": 57886,
+      "percentage": 2.477
     },
     {
       "name": "HTML",
-      "bytes": 48405,
-      "percentage": 2.193
+      "bytes": 48398,
+      "percentage": 2.071
     },
     {
       "name": "Batchfile",
       "bytes": 356,
-      "percentage": 0.016
+      "percentage": 0.015
     }
   ],
   "projects": [
@@ -1644,7 +1644,7 @@
       "url": "https://github.com/MatyanKass/NeuroYouStudio",
       "description": "",
       "language": "TypeScript",
-      "pushedAt": "2026-10-09T22:36:25Z"
+      "pushedAt": "2026-10-09T23:00:39Z"
     },
     {
       "name": "claude-web-api-deepseek",
