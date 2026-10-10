@@ -2,13 +2,13 @@
   "schemaVersion": 1,
   "login": "MatyanKass",
   "scope": "public",
-  "syncedAt": "2026-10-10T12:44:44.825Z",
+  "syncedAt": "2026-10-10T21:52:49.599Z",
   "calendarThrough": "2026-10-10",
   "publicRepositories": 3,
   "followers": 1,
   "stars": 0,
-  "contributions": 36,
-  "publicCommits": 33,
+  "contributions": 45,
+  "publicCommits": 42,
   "activeDays": 6,
   "longestStreak": 2,
   "days": [
@@ -1470,7 +1470,7 @@
     },
     {
       "date": "2026-10-10",
-      "count": 22
+      "count": 31
     }
   ],
   "history": [
@@ -1584,7 +1584,7 @@
     },
     {
       "date": "2026-10-10",
-      "count": 22
+      "count": 31
     }
   ],
   "weekly": [
@@ -1599,43 +1599,43 @@
     0,
     0,
     8,
-    28
+    37
   ],
   "languages": [
     {
-      "name": "Python",
-      "bytes": 1042801,
-      "percentage": 44.616
+      "name": "TypeScript",
+      "bytes": 1123889,
+      "percentage": 43.655
     },
     {
-      "name": "TypeScript",
-      "bytes": 923983,
-      "percentage": 39.533
+      "name": "Python",
+      "bytes": 1068073,
+      "percentage": 41.487
     },
     {
       "name": "JavaScript",
-      "bytes": 201427,
-      "percentage": 8.618
+      "bytes": 208510,
+      "percentage": 8.099
     },
     {
       "name": "PowerShell",
-      "bytes": 62414,
-      "percentage": 2.67
+      "bytes": 67244,
+      "percentage": 2.612
     },
     {
       "name": "CSS",
       "bytes": 57886,
-      "percentage": 2.477
+      "percentage": 2.248
     },
     {
       "name": "HTML",
       "bytes": 48398,
-      "percentage": 2.071
+      "percentage": 1.88
     },
     {
       "name": "Batchfile",
-      "bytes": 356,
-      "percentage": 0.015
+      "bytes": 485,
+      "percentage": 0.019
     }
   ],
   "projects": [
@@ -1644,14 +1644,14 @@
       "url": "https://github.com/MatyanKass/NeuroYouStudio",
       "description": "",
       "language": "TypeScript",
-      "pushedAt": "2026-10-09T23:00:39Z"
+      "pushedAt": "2026-10-10T15:55:11Z"
     },
     {
       "name": "claude-web-api-deepseek",
       "url": "https://github.com/MatyanKass/claude-web-api-deepseek",
       "description": "DeepSeek Web provider work based on beekamai/claude-web-api",
       "language": "Python",
-      "pushedAt": "2026-09-30T21:43:38Z"
+      "pushedAt": "2026-10-10T13:39:58Z"
     }
   ],
   "sourceUrls": [
