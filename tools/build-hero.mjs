@@ -7,7 +7,7 @@ const logo = readFileSync(resolve(root, 'assets/yudui.png')).toString('base64');
 const hero = `<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1120" height="448" viewBox="0 0 1120 448" role="img" aria-labelledby="title desc">
   <title id="title">MatyanKass — Small details. A better desktop.</title>
-  <desc id="desc">A personal space inspired by YudUi: violet aurora, glass surfaces, a pixel angel and gentle orbital motion. Currently building YudUi.</desc>
+  <desc id="desc">A personal space inspired by YudUi: violet aurora, glass surfaces, the YudUi cat and gentle orbital motion. Currently building YudUi.</desc>
   <defs>
     <linearGradient id="surface" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#171026"/><stop offset=".52" stop-color="#0b0714"/><stop offset="1" stop-color="#130c20"/></linearGradient>
     <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#c084fc" stop-opacity=".5"/><stop offset=".45" stop-color="#c084fc" stop-opacity=".1"/><stop offset="1" stop-color="#e879f9" stop-opacity=".4"/></linearGradient>
@@ -97,7 +97,7 @@ const mobileStyles = hero.match(/<style>[\s\S]*?<\/style>/)[0]
 const mobile = `<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="560" height="620" viewBox="0 0 560 620" role="img" aria-labelledby="title desc">
   <title id="title">MatyanKass — Small details. A better desktop.</title>
-  <desc id="desc">A violet personal space inspired by YudUi. An animated pixel angel card, gentle aurora, and orbital particles. Building YudUi.</desc>
+  <desc id="desc">A violet personal space inspired by YudUi. An animated YudUi cat card, gentle aurora, and orbital particles. Building YudUi.</desc>
   ${mobileDefs}${mobileStyles}
   <g clip-path="url(#canvas)">
     <rect width="560" height="620" fill="url(#surface)"/>
