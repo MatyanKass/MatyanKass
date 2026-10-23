@@ -2,14 +2,14 @@
   "schemaVersion": 1,
   "login": "MatyanKass",
   "scope": "public",
-  "syncedAt": "2026-10-23T05:04:15.110Z",
+  "syncedAt": "2026-10-23T11:51:00.272Z",
   "calendarThrough": "2026-10-23",
-  "publicRepositories": 3,
+  "publicRepositories": 4,
   "followers": 1,
   "stars": 0,
-  "contributions": 46,
+  "contributions": 47,
   "publicCommits": 43,
-  "activeDays": 7,
+  "activeDays": 8,
   "longestStreak": 2,
   "days": [
     {
@@ -1470,7 +1470,7 @@
     },
     {
       "date": "2026-10-23",
-      "count": 0
+      "count": 1
     }
   ],
   "history": [
@@ -1584,7 +1584,7 @@
     },
     {
       "date": "2026-10-23",
-      "count": 0
+      "count": 1
     }
   ],
   "weekly": [
@@ -1599,46 +1599,68 @@
     5,
     9,
     31,
-    1
+    2
   ],
   "languages": [
     {
       "name": "TypeScript",
       "bytes": 1123889,
-      "percentage": 43.655
+      "percentage": 41.486
     },
     {
       "name": "Python",
       "bytes": 1068073,
-      "percentage": 41.487
+      "percentage": 39.426
     },
     {
       "name": "JavaScript",
       "bytes": 208508,
-      "percentage": 8.099
+      "percentage": 7.697
+    },
+    {
+      "name": "Kotlin",
+      "bytes": 116549,
+      "percentage": 4.302
     },
     {
       "name": "PowerShell",
       "bytes": 67244,
-      "percentage": 2.612
+      "percentage": 2.482
     },
     {
       "name": "CSS",
       "bytes": 57886,
-      "percentage": 2.248
+      "percentage": 2.137
     },
     {
       "name": "HTML",
       "bytes": 48398,
-      "percentage": 1.88
+      "percentage": 1.787
+    },
+    {
+      "name": "C",
+      "bytes": 14192,
+      "percentage": 0.524
+    },
+    {
+      "name": "Shell",
+      "bytes": 3862,
+      "percentage": 0.143
     },
     {
       "name": "Batchfile",
       "bytes": 485,
-      "percentage": 0.019
+      "percentage": 0.018
     }
   ],
   "projects": [
+    {
+      "name": "Nemulator",
+      "url": "https://github.com/MatyanKass/Nemulator",
+      "description": "",
+      "language": "Kotlin",
+      "pushedAt": "2026-10-23T10:05:55Z"
+    },
     {
       "name": "NeuroYouStudio",
       "url": "https://github.com/MatyanKass/NeuroYouStudio",
