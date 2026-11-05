@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "login": "MatyanKass",
   "scope": "public",
-  "syncedAt": "2026-11-04T19:54:26.671Z",
-  "calendarThrough": "2026-11-04",
+  "syncedAt": "2026-11-05T07:02:01.597Z",
+  "calendarThrough": "2026-11-05",
   "publicRepositories": 4,
   "followers": 1,
   "stars": 0,
@@ -12,10 +12,6 @@
   "activeDays": 8,
   "longestStreak": 2,
   "days": [
-    {
-      "date": "2025-11-05",
-      "count": 0
-    },
     {
       "date": "2025-11-06",
       "count": 0
@@ -1471,13 +1467,13 @@
     {
       "date": "2026-11-04",
       "count": 0
+    },
+    {
+      "date": "2026-11-05",
+      "count": 0
     }
   ],
   "history": [
-    {
-      "date": "2026-10-08",
-      "count": 0
-    },
     {
       "date": "2026-10-09",
       "count": 1
@@ -1585,6 +1581,10 @@
     {
       "date": "2026-11-04",
       "count": 0
+    },
+    {
+      "date": "2026-11-05",
+      "count": 0
     }
   ],
   "weekly": [
@@ -1594,8 +1594,8 @@
     0,
     0,
     0,
-    2,
-    11,
+    5,
+    8,
     32,
     1,
     1,
