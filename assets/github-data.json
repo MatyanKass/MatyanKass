@@ -2,20 +2,16 @@
   "schemaVersion": 1,
   "login": "MatyanKass",
   "scope": "public",
-  "syncedAt": "2026-11-08T22:17:08.180Z",
-  "calendarThrough": "2026-11-08",
-  "publicRepositories": 4,
+  "syncedAt": "2026-11-09T06:54:17.956Z",
+  "calendarThrough": "2026-11-09",
+  "publicRepositories": 5,
   "followers": 1,
   "stars": 0,
-  "contributions": 47,
-  "publicCommits": 43,
-  "activeDays": 8,
-  "longestStreak": 2,
+  "contributions": 74,
+  "publicCommits": 69,
+  "activeDays": 11,
+  "longestStreak": 3,
   "days": [
-    {
-      "date": "2025-11-09",
-      "count": 0
-    },
     {
       "date": "2025-11-10",
       "count": 0
@@ -1358,7 +1354,7 @@
     },
     {
       "date": "2026-10-11",
-      "count": 0
+      "count": 4
     },
     {
       "date": "2026-10-12",
@@ -1470,15 +1466,15 @@
     },
     {
       "date": "2026-11-08",
-      "count": 0
+      "count": 11
+    },
+    {
+      "date": "2026-11-09",
+      "count": 12
     }
   ],
   "history": [
     {
-      "date": "2026-10-12",
-      "count": 0
-    },
-    {
       "date": "2026-10-13",
       "count": 0
     },
@@ -1584,7 +1580,11 @@
     },
     {
       "date": "2026-11-08",
-      "count": 0
+      "count": 11
+    },
+    {
+      "date": "2026-11-09",
+      "count": 12
     }
   ],
   "weekly": [
@@ -1595,65 +1595,82 @@
     0,
     0,
     13,
-    32,
+    36,
     1,
     1,
     0,
-    0
+    23
   ],
   "languages": [
     {
       "name": "TypeScript",
-      "bytes": 1123889,
-      "percentage": 41.486
+      "bytes": 1537387,
+      "percentage": 40.902
     },
     {
       "name": "Python",
       "bytes": 1068073,
-      "percentage": 39.426
+      "percentage": 28.416
     },
     {
       "name": "JavaScript",
-      "bytes": 208508,
-      "percentage": 7.697
+      "bytes": 516958,
+      "percentage": 13.754
+    },
+    {
+      "name": "Lua",
+      "bytes": 196523,
+      "percentage": 5.228
+    },
+    {
+      "name": "Luau",
+      "bytes": 126473,
+      "percentage": 3.365
     },
     {
       "name": "Kotlin",
       "bytes": 116549,
-      "percentage": 4.302
+      "percentage": 3.101
     },
     {
       "name": "PowerShell",
-      "bytes": 67244,
-      "percentage": 2.482
+      "bytes": 71912,
+      "percentage": 1.913
     },
     {
       "name": "CSS",
       "bytes": 57886,
-      "percentage": 2.137
+      "percentage": 1.54
     },
     {
       "name": "HTML",
       "bytes": 48398,
-      "percentage": 1.787
+      "percentage": 1.288
     },
     {
       "name": "C",
       "bytes": 14192,
-      "percentage": 0.524
+      "percentage": 0.378
     },
     {
       "name": "Shell",
       "bytes": 3862,
-      "percentage": 0.143
+      "percentage": 0.103
     },
     {
       "name": "Batchfile",
       "bytes": 485,
-      "percentage": 0.018
+      "percentage": 0.013
     }
   ],
   "projects": [
+    {
+      "name": "RoLink",
+      "url": "https://github.com/MatyanKass/RoLink",
+      "description": "",
+      "language": "TypeScript",
+      "pushedAt": "2026-11-09T01:56:53Z"
+    },
     {
       "name": "Nemulator",
       "url": "https://github.com/MatyanKass/Nemulator",
@@ -1667,13 +1684,6 @@
       "description": "",
       "language": "TypeScript",
       "pushedAt": "2026-10-10T15:55:11Z"
-    },
-    {
-      "name": "claude-web-api-deepseek",
-      "url": "https://github.com/MatyanKass/claude-web-api-deepseek",
-      "description": "DeepSeek Web provider work based on beekamai/claude-web-api",
-      "language": "Python",
-      "pushedAt": "2026-10-10T13:39:58Z"
     }
   ],
   "sourceUrls": [
