@@ -2,20 +2,16 @@
   "schemaVersion": 1,
   "login": "MatyanKass",
   "scope": "public",
-  "syncedAt": "2026-11-11T19:44:00.330Z",
-  "calendarThrough": "2026-11-11",
+  "syncedAt": "2026-11-12T07:26:13.660Z",
+  "calendarThrough": "2026-11-12",
   "publicRepositories": 5,
   "followers": 1,
   "stars": 0,
-  "contributions": 74,
-  "publicCommits": 69,
-  "activeDays": 11,
+  "contributions": 93,
+  "publicCommits": 88,
+  "activeDays": 13,
   "longestStreak": 3,
   "days": [
-    {
-      "date": "2025-11-12",
-      "count": 0
-    },
     {
       "date": "2025-11-13",
       "count": 0
@@ -1470,14 +1466,14 @@
     },
     {
       "date": "2026-11-11",
-      "count": 0
+      "count": 13
+    },
+    {
+      "date": "2026-11-12",
+      "count": 6
     }
   ],
   "history": [
-    {
-      "date": "2026-10-15",
-      "count": 0
-    },
     {
       "date": "2026-10-16",
       "count": 0
@@ -1584,7 +1580,11 @@
     },
     {
       "date": "2026-11-11",
-      "count": 0
+      "count": 13
+    },
+    {
+      "date": "2026-11-12",
+      "count": 6
     }
   ],
   "weekly": [
@@ -1593,69 +1593,69 @@
     0,
     0,
     0,
-    2,
-    11,
+    5,
+    8,
     36,
     1,
     1,
     0,
-    23
+    42
   ],
   "languages": [
     {
       "name": "TypeScript",
-      "bytes": 1537387,
-      "percentage": 40.902
+      "bytes": 1576397,
+      "percentage": 40.722
     },
     {
       "name": "Python",
       "bytes": 1068073,
-      "percentage": 28.416
+      "percentage": 27.591
     },
     {
       "name": "JavaScript",
-      "bytes": 516958,
-      "percentage": 13.754
+      "bytes": 564928,
+      "percentage": 14.593
     },
     {
       "name": "Lua",
-      "bytes": 196523,
-      "percentage": 5.228
+      "bytes": 208916,
+      "percentage": 5.397
     },
     {
       "name": "Luau",
-      "bytes": 126473,
-      "percentage": 3.365
+      "bytes": 139543,
+      "percentage": 3.605
     },
     {
       "name": "Kotlin",
       "bytes": 116549,
-      "percentage": 3.101
+      "percentage": 3.011
     },
     {
       "name": "PowerShell",
       "bytes": 71912,
-      "percentage": 1.913
+      "percentage": 1.858
     },
     {
       "name": "CSS",
       "bytes": 57886,
-      "percentage": 1.54
+      "percentage": 1.495
     },
     {
       "name": "HTML",
       "bytes": 48398,
-      "percentage": 1.288
+      "percentage": 1.25
     },
     {
       "name": "C",
       "bytes": 14192,
-      "percentage": 0.378
+      "percentage": 0.367
     },
     {
       "name": "Shell",
       "bytes": 3862,
-      "percentage": 0.103
+      "percentage": 0.1
     },
     {
       "name": "Batchfile",
@@ -1669,7 +1669,7 @@
       "url": "https://github.com/MatyanKass/RoLink",
       "description": "",
       "language": "TypeScript",
-      "pushedAt": "2026-11-09T01:56:53Z"
+      "pushedAt": "2026-11-11T22:40:51Z"
     },
     {
       "name": "Nemulator",
