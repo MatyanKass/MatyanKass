@@ -44,9 +44,9 @@
 <!-- RECENT-WORK:START -->
 <p align="center">
   <b>Recent public work</b><br />
+  <a href="https://github.com/MatyanKass/ModulAI">ModulAI</a> — Ai - for all<br />
   <a href="https://github.com/MatyanKass/RoLink">RoLink</a> — TypeScript<br />
   <a href="https://github.com/MatyanKass/Nemulator">Nemulator</a> — Kotlin<br />
-  <a href="https://github.com/MatyanKass/NeuroYouStudio">NeuroYouStudio</a> — TypeScript<br />
 </p>
 <!-- RECENT-WORK:END -->
 
