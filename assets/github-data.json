@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "login": "MatyanKass",
   "scope": "public",
-  "syncedAt": "2026-11-27T21:28:36.454Z",
-  "calendarThrough": "2026-11-27",
+  "syncedAt": "2026-11-28T08:07:28.183Z",
+  "calendarThrough": "2026-11-28",
   "publicRepositories": 6,
   "followers": 1,
   "stars": 0,
@@ -12,10 +12,6 @@
   "activeDays": 14,
   "longestStreak": 3,
   "days": [
-    {
-      "date": "2025-11-28",
-      "count": 0
-    },
     {
       "date": "2025-11-29",
       "count": 0
@@ -1471,13 +1467,13 @@
     {
       "date": "2026-11-27",
       "count": 0
+    },
+    {
+      "date": "2026-11-28",
+      "count": 0
     }
   ],
   "history": [
-    {
-      "date": "2026-10-31",
-      "count": 0
-    },
     {
       "date": "2026-11-01",
       "count": 0
@@ -1585,15 +1581,19 @@
     {
       "date": "2026-11-27",
       "count": 0
+    },
+    {
+      "date": "2026-11-28",
+      "count": 0
     }
   ],
   "weekly": [
     0,
     0,
     0,
-    5,
-    9,
-    35,
+    8,
+    37,
+    4,
     2,
     0,
     0,
@@ -1669,7 +1669,7 @@
       "url": "https://github.com/MatyanKass/ModulAI",
       "description": "Ai - for all",
       "language": null,
-      "pushedAt": "2026-11-26T15:36:23Z"
+      "pushedAt": "2026-11-27T21:58:22Z"
     },
     {
       "name": "RoLink",
